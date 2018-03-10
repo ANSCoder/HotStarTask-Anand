@@ -1,0 +1,6 @@
+framework module Pods_HotStarTask_AnandUITests {
+  umbrella header "Pods-HotStarTask-AnandUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
