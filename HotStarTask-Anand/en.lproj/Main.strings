@@ -1,0 +1,24 @@
+
+/* Class = "UINavigationItem"; title = "Waiting List"; ObjectID = "0gv-5y-g7X"; */
+"0gv-5y-g7X.title" = "Waiting List";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "BoR-si-m07"; */
+"BoR-si-m07.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "User Status"; ObjectID = "K2b-c9-TSk"; */
+"K2b-c9-TSk.text" = "User Status";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "KmG-LQ-3RL"; */
+"KmG-LQ-3RL.text" = "Login";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "Uh1-zT-8JH"; */
+"Uh1-zT-8JH.title" = "Login";
+
+/* Class = "UILabel"; text = "User Status"; ObjectID = "b3k-Pu-3ba"; */
+"b3k-Pu-3ba.text" = "User Status";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "bRE-AK-eSM"; */
+"bRE-AK-eSM.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "fs0-XC-WkD"; */
+"fs0-XC-WkD.normalTitle" = "Login";
