@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170C36062053D73D00B0F746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C36052053D73D00B0F746 /* AppDelegate.swift */; };
+		170C36082053D73D00B0F746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C36072053D73D00B0F746 /* ViewController.swift */; };
+		170C360B2053D73D00B0F746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170C36092053D73D00B0F746 /* Main.storyboard */; };
+		170C360D2053D73D00B0F746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170C360C2053D73D00B0F746 /* Assets.xcassets */; };
+		170C36102053D73D00B0F746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170C360E2053D73D00B0F746 /* LaunchScreen.storyboard */; };
+		170C361B2053D73D00B0F746 /* HotStarTask_AnandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C361A2053D73D00B0F746 /* HotStarTask_AnandTests.swift */; };
+		170C36262053D73D00B0F746 /* HotStarTask_AnandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C36252053D73D00B0F746 /* HotStarTask_AnandUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		170C36172053D73D00B0F746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170C35FA2053D73D00B0F746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170C36012053D73D00B0F746;
+			remoteInfo = "HotStarTask-Anand";
+		};
+		170C36222053D73D00B0F746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170C35FA2053D73D00B0F746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170C36012053D73D00B0F746;
+			remoteInfo = "HotStarTask-Anand";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170C36022053D73D00B0F746 /* HotStarTask-Anand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HotStarTask-Anand.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170C36052053D73D00B0F746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		170C36072053D73D00B0F746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		170C360A2053D73D00B0F746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		170C360C2053D73D00B0F746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		170C360F2053D73D00B0F746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		170C36112053D73D00B0F746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170C36162053D73D00B0F746 /* HotStarTask-AnandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HotStarTask-AnandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170C361A2053D73D00B0F746 /* HotStarTask_AnandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotStarTask_AnandTests.swift; sourceTree = "<group>"; };
+		170C361C2053D73D00B0F746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170C36212053D73D00B0F746 /* HotStarTask-AnandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HotStarTask-AnandUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170C36252053D73D00B0F746 /* HotStarTask_AnandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotStarTask_AnandUITests.swift; sourceTree = "<group>"; };
+		170C36272053D73D00B0F746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		170C35FF2053D73D00B0F746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170C36132053D73D00B0F746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170C361E2053D73D00B0F746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170C35F92053D73D00B0F746 = {
+			isa = PBXGroup;
+			children = (
+				170C36042053D73D00B0F746 /* HotStarTask-Anand */,
+				170C36192053D73D00B0F746 /* HotStarTask-AnandTests */,
+				170C36242053D73D00B0F746 /* HotStarTask-AnandUITests */,
+				170C36032053D73D00B0F746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		170C36032053D73D00B0F746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				170C36022053D73D00B0F746 /* HotStarTask-Anand.app */,
+				170C36162053D73D00B0F746 /* HotStarTask-AnandTests.xctest */,
+				170C36212053D73D00B0F746 /* HotStarTask-AnandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		170C36042053D73D00B0F746 /* HotStarTask-Anand */ = {
+			isa = PBXGroup;
+			children = (
+				170C36052053D73D00B0F746 /* AppDelegate.swift */,
+				170C36072053D73D00B0F746 /* ViewController.swift */,
+				170C36092053D73D00B0F746 /* Main.storyboard */,
+				170C360C2053D73D00B0F746 /* Assets.xcassets */,
+				170C360E2053D73D00B0F746 /* LaunchScreen.storyboard */,
+				170C36112053D73D00B0F746 /* Info.plist */,
+			);
+			path = "HotStarTask-Anand";
+			sourceTree = "<group>";
+		};
+		170C36192053D73D00B0F746 /* HotStarTask-AnandTests */ = {
+			isa = PBXGroup;
+			children = (
+				170C361A2053D73D00B0F746 /* HotStarTask_AnandTests.swift */,
+				170C361C2053D73D00B0F746 /* Info.plist */,
+			);
+			path = "HotStarTask-AnandTests";
+			sourceTree = "<group>";
+		};
+		170C36242053D73D00B0F746 /* HotStarTask-AnandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				170C36252053D73D00B0F746 /* HotStarTask_AnandUITests.swift */,
+				170C36272053D73D00B0F746 /* Info.plist */,
+			);
+			path = "HotStarTask-AnandUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		170C36012053D73D00B0F746 /* HotStarTask-Anand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170C362A2053D73D00B0F746 /* Build configuration list for PBXNativeTarget "HotStarTask-Anand" */;
+			buildPhases = (
+				170C35FE2053D73D00B0F746 /* Sources */,
+				170C35FF2053D73D00B0F746 /* Frameworks */,
+				170C36002053D73D00B0F746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HotStarTask-Anand";
+			productName = "HotStarTask-Anand";
+			productReference = 170C36022053D73D00B0F746 /* HotStarTask-Anand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		170C36152053D73D00B0F746 /* HotStarTask-AnandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170C362D2053D73D00B0F746 /* Build configuration list for PBXNativeTarget "HotStarTask-AnandTests" */;
+			buildPhases = (
+				170C36122053D73D00B0F746 /* Sources */,
+				170C36132053D73D00B0F746 /* Frameworks */,
+				170C36142053D73D00B0F746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				170C36182053D73D00B0F746 /* PBXTargetDependency */,
+			);
+			name = "HotStarTask-AnandTests";
+			productName = "HotStarTask-AnandTests";
+			productReference = 170C36162053D73D00B0F746 /* HotStarTask-AnandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		170C36202053D73D00B0F746 /* HotStarTask-AnandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170C36302053D73D00B0F746 /* Build configuration list for PBXNativeTarget "HotStarTask-AnandUITests" */;
+			buildPhases = (
+				170C361D2053D73D00B0F746 /* Sources */,
+				170C361E2053D73D00B0F746 /* Frameworks */,
+				170C361F2053D73D00B0F746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				170C36232053D73D00B0F746 /* PBXTargetDependency */,
+			);
+			name = "HotStarTask-AnandUITests";
+			productName = "HotStarTask-AnandUITests";
+			productReference = 170C36212053D73D00B0F746 /* HotStarTask-AnandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170C35FA2053D73D00B0F746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Anand;
+				TargetAttributes = {
+					170C36012053D73D00B0F746 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					170C36152053D73D00B0F746 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 170C36012053D73D00B0F746;
+					};
+					170C36202053D73D00B0F746 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 170C36012053D73D00B0F746;
+					};
+				};
+			};
+			buildConfigurationList = 170C35FD2053D73D00B0F746 /* Build configuration list for PBXProject "HotStarTask-Anand" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 170C35F92053D73D00B0F746;
+			productRefGroup = 170C36032053D73D00B0F746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170C36012053D73D00B0F746 /* HotStarTask-Anand */,
+				170C36152053D73D00B0F746 /* HotStarTask-AnandTests */,
+				170C36202053D73D00B0F746 /* HotStarTask-AnandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		170C36002053D73D00B0F746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C36102053D73D00B0F746 /* LaunchScreen.storyboard in Resources */,
+				170C360D2053D73D00B0F746 /* Assets.xcassets in Resources */,
+				170C360B2053D73D00B0F746 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170C36142053D73D00B0F746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170C361F2053D73D00B0F746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		170C35FE2053D73D00B0F746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C36082053D73D00B0F746 /* ViewController.swift in Sources */,
+				170C36062053D73D00B0F746 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170C36122053D73D00B0F746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C361B2053D73D00B0F746 /* HotStarTask_AnandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170C361D2053D73D00B0F746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C36262053D73D00B0F746 /* HotStarTask_AnandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		170C36182053D73D00B0F746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170C36012053D73D00B0F746 /* HotStarTask-Anand */;
+			targetProxy = 170C36172053D73D00B0F746 /* PBXContainerItemProxy */;
+		};
+		170C36232053D73D00B0F746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170C36012053D73D00B0F746 /* HotStarTask-Anand */;
+			targetProxy = 170C36222053D73D00B0F746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		170C36092053D73D00B0F746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170C360A2053D73D00B0F746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		170C360E2053D73D00B0F746 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170C360F2053D73D00B0F746 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		170C36282053D73D00B0F746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		170C36292053D73D00B0F746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		170C362B2053D73D00B0F746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HotStarTask-Anand/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anscoder.HotStarTask-Anand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		170C362C2053D73D00B0F746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HotStarTask-Anand/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anscoder.HotStarTask-Anand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		170C362E2053D73D00B0F746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HotStarTask-AnandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anscoder.HotStarTask-AnandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotStarTask-Anand.app/HotStarTask-Anand";
+			};
+			name = Debug;
+		};
+		170C362F2053D73D00B0F746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HotStarTask-AnandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anscoder.HotStarTask-AnandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotStarTask-Anand.app/HotStarTask-Anand";
+			};
+			name = Release;
+		};
+		170C36312053D73D00B0F746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HotStarTask-AnandUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anscoder.HotStarTask-AnandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HotStarTask-Anand";
+			};
+			name = Debug;
+		};
+		170C36322053D73D00B0F746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HotStarTask-AnandUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anscoder.HotStarTask-AnandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HotStarTask-Anand";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		170C35FD2053D73D00B0F746 /* Build configuration list for PBXProject "HotStarTask-Anand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170C36282053D73D00B0F746 /* Debug */,
+				170C36292053D73D00B0F746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170C362A2053D73D00B0F746 /* Build configuration list for PBXNativeTarget "HotStarTask-Anand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170C362B2053D73D00B0F746 /* Debug */,
+				170C362C2053D73D00B0F746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170C362D2053D73D00B0F746 /* Build configuration list for PBXNativeTarget "HotStarTask-AnandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170C362E2053D73D00B0F746 /* Debug */,
+				170C362F2053D73D00B0F746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170C36302053D73D00B0F746 /* Build configuration list for PBXNativeTarget "HotStarTask-AnandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170C36312053D73D00B0F746 /* Debug */,
+				170C36322053D73D00B0F746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 170C35FA2053D73D00B0F746 /* Project object */;
+}
